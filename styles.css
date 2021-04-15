@@ -1,19 +1,39 @@
 body {
-  background-color: orange; 
-  color: white;
+  background-color: gray; 
+  color: orange;
   text-align: center;
 }
 
-body h1 {
+h1 {
   color: black;
 }
+
+.header {
+  background-image: url(/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 500px;
+
+}
+
+.header h1 { 
+  font-size: 45px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: bold; 
+  line-height: normal;
+  padding: 10px;
+  text-align: center;
+  color: orange;
+} 
 
 .topnav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: darkorange;
   background-origin: border-box;
   color: orange;
   font-size: 15px; 
