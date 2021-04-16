@@ -98,3 +98,8 @@ h1 {
   color: orange;
   background-color: black;
 }
+
+div .footer p {
+  background-color: darkgray;
+  color: white;
+}
