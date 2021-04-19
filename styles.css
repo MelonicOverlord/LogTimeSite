@@ -1,7 +1,15 @@
 body {
   background-color: gray; 
-  color: orange;
+  color: rgb(0, 0, 0);
   text-align: center;
+}
+
+body h1{
+  font-family:Algerian;
+}
+
+body{
+  font-family: Calibri;
 }
 
 h1 {
@@ -78,7 +86,7 @@ h1 {
 }
 
 .topnav .dropdown-content a {
-  color: orange;
+  color: rgb(0, 0, 0);
   padding: 10px;
   text-decoration: none;
   display: block;
@@ -86,7 +94,7 @@ h1 {
 }
 
 .topnav .dropdown-content a:hover {
-  background-color: orange;
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 
@@ -95,7 +103,7 @@ h1 {
 }
 
 .topnav .active {
-  color: orange;
+  color: rgb(0, 0, 0);
   background-color: black;
 }
 
