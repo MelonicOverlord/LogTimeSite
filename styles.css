@@ -36,6 +36,11 @@ h1 {
   color: orange;
 } 
 
+p div .bioLeftAlign {
+  text-align: left;
+  float: left;
+}
+
 .topnav ul {
   list-style-type: none;
   margin: 0;
