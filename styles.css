@@ -36,7 +36,7 @@ h1 {
   color: orange;
 } 
 
-p div .bioLeftAlign {
+div .bioLeftAlign {
   text-align: left;
   float: left;
 }
@@ -108,11 +108,11 @@ p div .bioLeftAlign {
 }
 
 .topnav .active {
-  color: rgb(0, 0, 0);
-  background-color: black;
+  color: gray;
+  background-color: darkslategray;
 }
 
-div .footer p {
+footer .footer {
   background-color: darkgray;
   color: white;
 }
