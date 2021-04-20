@@ -36,7 +36,7 @@ h1 {
   color: orange;
 } 
 
-p div .bioLeftAlign {
+div .bioLeftAlign {
   text-align: left;
   float: left;
 }
@@ -112,7 +112,7 @@ p div .bioLeftAlign {
   background-color: black;
 }
 
-div .footer p {
+div .footer {
   background-color: darkgray;
   color: white;
 }
