@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LogTime Website</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link type="text/css" rel="stylesheet" href="/styles.css">
+    <script src="/script.js"></script>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="https://discord.gg/mqXCEwbD2m">Discord</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="http://worldmap.logtime.ga:2367/">Survival Map</a></li>
+        <li><a href="chat.html">Chat</a></li>
+      </ul>
+    </div>
+
+    <header class="header">
+      <h1>Welcome To The LogTime Chat</h1>
+    </header>
+  
+    <p>This Is A Temporary Solution While We Make The Forums!</a><br><br></p>
+  
+    <h3>LogTime Temporary Chat</h3>
+          
+
+    <form action="post_comment.php" method="post" id="commentform">
+  
+      <label for="comment_author" class="required">Your name</label>
+      <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+  
+      <label for="comment" class="required">Your message</label>
+      <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+  
+      <-- comment_post_ID value hard-coded as 1 -->
+      <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+      <input name="submit" type="submit" value="Submit comment" />
+  
+    </form>
+    <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+</body>
+
+  <footer class="footer">
+
+  </footer>
+</html>
