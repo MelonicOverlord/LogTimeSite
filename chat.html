@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>LogTime Website</title>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <link type="text/css" rel="stylesheet" href="/styles.css">
-    <script src="/script.js"></script>
+    <meta content="text/html" charset="UTF-8" http-equiv="Content-Type">
+    <meta content="UTF-8" http-equiv="encoding">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script type="code/javascript" src="script.js"></script>
   </head>
 
   <body>
@@ -24,26 +24,27 @@
       <h1>Welcome To The LogTime Chat</h1>
     </header>
   
-    <p>This Is A Temporary Solution While We Make The Forums!</a><br><br></p>
-  
-    <h3>LogTime Temporary Chat</h3>
+    <h2>LogTime Temporary Chat</h2>
+    <p><i>This is a temporary solution while we make the forums!</i></p>
+
+    <br>
           
 
     <form action="post_comment.php" method="post" id="commentform">
   
       <label for="comment_author" class="required">Your name</label>
-      <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+      <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required" />
   
       <label for="comment" class="required">Your message</label>
       <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
   
-      <-- comment_post_ID value hard-coded as 1 -->
+      <!-- comment_post_ID value hard-coded as 1 -->
       <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
       <input name="submit" type="submit" value="Submit comment" />
   
     </form>
     <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
-</body>
+  </body>
 
   <footer class="footer">
 
