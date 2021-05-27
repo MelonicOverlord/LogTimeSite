@@ -4,11 +4,11 @@ body {
   text-align: center;
 }
 
-body h1{
+body h1 {
   font-family:Algerian;
 }
 
-body{
+body {
   font-family: Calibri;
 }
 
@@ -36,10 +36,38 @@ h1 {
   color: orange;
 } 
 
-div .bioLeftAlign {
-  text-align: left;
+.staffColumn {
   float: left;
+  text-align: center;
 }
+
+.staffColumn.left {
+  width: 20%;
+}
+
+.staffColumn.leftMid {
+  width: 20%;
+}
+
+.staffColumn.mid {
+  width: 20%;
+}
+
+.staffColumn.rightMid {
+  width: 20%;
+}
+
+.staffColumn.right {
+  width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  .staffColumn.left, .staffColumn.leftMid, .staffColumn.mid, .staffColumn.rightMid, .staffColumn.right {
+    width: 100%;
+  }
+}
+
+
 
 .topnav ul {
   list-style-type: none;
