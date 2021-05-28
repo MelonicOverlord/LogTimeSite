@@ -4,11 +4,11 @@ body {
   text-align: center;
 }
 
-body h1{
+body h1 {
   font-family:Algerian;
 }
 
-body{
+body {
   font-family: Calibri;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 .header {
-  background-image: url(/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
@@ -36,9 +36,39 @@ h1 {
   color: orange;
 } 
 
-div .bioLeftAlign {
-  text-align: left;
+.staffColumn {
   float: left;
+}
+
+.staffColumn.left {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.leftMid {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.mid {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.rightMid {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.right {
+  width: 15%;
+  padding: 2.5%;
+}
+
+@media screen and (max-width: 600px) {
+  .staffColumn.left, .staffColumn.leftMid, .staffColumn.mid, .staffColumn.rightMid, .staffColumn.right {
+    width: 100%;
+  }
 }
 
 .topnav ul {
