@@ -42,23 +42,28 @@ h1 {
 }
 
 .staffColumn.left {
-  width: 20%;
+  width: 15%;
+  padding: 2.5%;
 }
 
 .staffColumn.leftMid {
-  width: 20%;
+  width: 15%;
+  padding: 2.5%;
 }
 
 .staffColumn.mid {
-  width: 20%;
+  width: 15%;
+  padding: 2.5%;
 }
 
 .staffColumn.rightMid {
-  width: 20%;
+  width: 15%;
+  padding: 2.5%;
 }
 
 .staffColumn.right {
-  width: 20%;
+  width: 15%;
+  padding: 2.5%;
 }
 
 @media screen and (max-width: 600px) {
