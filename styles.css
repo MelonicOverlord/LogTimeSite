@@ -2,6 +2,13 @@ body {
   background-color: gray; 
   color: rgb(0, 0, 0);
   text-align: center;
+}
+
+body h1 {
+  font-family:Algerian;
+}
+
+body {
   font-family: Calibri;
 }
 
@@ -35,6 +42,74 @@ h1 {
 
 .staffColumn {
   float: left;
+  display: table;
+}
+
+.staffColumn.left {
+  width: 15%;
+  padding: 2.5%;
+  display: table-column;
+}
+
+.staffColumn.leftMid {
+  width: 15%;
+  padding: 2.5%;
+  display: table-column;
+}
+
+.staffColumn.mid {
+  width: 15%;
+  padding: 2.5%;
+  display: table-column;
+}
+
+.staffColumn.rightMid {
+  width: 15%;
+  padding: 2.5%;
+  display: table-column;
+}
+
+.staffColumn.right {
+  width: 15%;
+  padding: 2.5%;
+  display: table-column;
+}
+
+@media screen and (max-width: 600px) {
+  .staffColumn.left, .staffColumn.leftMid, .staffColumn.mid, .staffColumn.rightMid, .staffColumn.right {
+    width: 100%;
+  }
+}
+
+.staffColumn.left {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.leftMid {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.mid {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.rightMid {
+  width: 15%;
+  padding: 2.5%;
+}
+
+.staffColumn.right {
+  width: 15%;
+  padding: 2.5%;
+}
+
+@media screen and (max-width: 600px) {
+  .staffColumn.left, .staffColumn.leftMid, .staffColumn.mid, .staffColumn.rightMid, .staffColumn.right {
+    width: 100%;
+  }
 }
 
 .staffColumn.left {
